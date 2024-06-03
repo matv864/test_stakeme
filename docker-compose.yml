@@ -1,0 +1,11 @@
+version: "2.27"
+
+name: eth-api
+
+services:
+  eth-api:
+    container_name: eth-api
+    restart: always
+    build: eth-api
+    ports:
+      - 3000:3000
